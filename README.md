@@ -6,6 +6,8 @@ Scan path and add found vmx file to vmware
 
 #Example
 
+On disk
+
     D:\Vmware Machines
                         \Job
                             \Win7
@@ -14,6 +16,13 @@ Scan path and add found vmx file to vmware
                             \Win10
                                 \Win10.vmx
     
+Now VMWare will look like
+
+    My Computer
+        - Job
+            Win7
+        - Funny
+            Win10
 
 ```javascript
 const vmls = require('vmware-vmls');

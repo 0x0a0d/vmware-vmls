@@ -1,12 +1,12 @@
 {
   "name": "vmware-vmls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "vmls.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["vmware", "vmls"],
   "author": "",
   "license": "ISC"
 }
